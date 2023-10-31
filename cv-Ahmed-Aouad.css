@@ -1,0 +1,36 @@
+h1 {background-color: cornflowerblue; border-radius: 20%; border: 3px solid black;}
+
+h2 {background-color:mediumturquoise;border-radius: 15%; border: 3px solid black;}
+section {font-family: 'Times New Roman'; }
+
+body {background-color: peachpuff;
+     text-align: center ; 
+     background-image: url(/images/laptop-7723139_1280.jpg) ;
+     margin-left: 30%;
+      margin-right: 30%;
+    
+    }
+p {color: black; font-weight: bold; border: 3px solid black; background-color: white; 
+    border-radius: 10%;}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.competence{
+    border: transparent;
+    width: 600px;
+    padding-top: 20px;
+}
+
+.items .competence p{
+    border: transparent;
+}   
+
+footer {display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
